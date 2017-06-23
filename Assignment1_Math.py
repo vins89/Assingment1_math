@@ -1,9 +1,9 @@
-from click._compat import raw_input
+#from click._compat import raw_input
 
 
 def math(vars):
 
-    var1 = raw_input("what is your first value? ")
+    var1 = raw_input("what is your first value? ") #rawinput converted to string
     var2 = raw_input("enter second value ")
 
     print(int(var1) + int(var2))
